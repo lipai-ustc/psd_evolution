@@ -1,0 +1,13 @@
+# Fitting configuration
+psd_init = "1paper-data-processing/0s.txt"
+psd_final = "1paper-data-processing/90s.txt"
+
+# Evolution parameters (starting point or constraints)
+T_initial =     1062     # 初始温度 (K)
+T_anneal =      1608.15  # 退火温度 (K)
+heating_rate =  50       # 升温速率 (K/s)
+cooling_rate =  50       # 降温速率 (K/s)
+anneal_time =   90       # 退火时间 (s)
+dt_max =        1.0      # 演化时间步长上限 (s)
+c1 =            1e-7     # 初始噪声参数c1
+c2 =            1e-4     # 初始噪声参数c2

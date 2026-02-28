@@ -1,0 +1,11 @@
+target_rms =    4.1      # 目标RMS (um)
+scan_size_um =  30.0     # 扫描尺寸 (um)
+size =          512      # 像素数
+T_initial =     1062     # 初始温度 (K)
+T_anneal =      1608.15  # 退火温度 (K)
+heating_rate =  50       # 升温速率 (K/s)
+cooling_rate =  50       # 降温速率 (K/s)
+anneal_time =   90       # 退火时间 (s)
+dt_max =        1.0      # 演化时间步长上限 (s)
+c1 =            1e-7     # 噪声参数c1 (delta = c1*v*T)
+c2 =            1e-4     # 噪声参数c2 (gamma = c2*v*T)
