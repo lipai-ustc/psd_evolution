@@ -2,6 +2,8 @@
 
 This project simulates the thermal evolution of silicon wafer surfaces using the linear Mullins-Herring (M-H) equation. It includes tools for generating Power Spectral Density (PSD) from experimental data, simulating surface morphology changes, and fitting physical parameters ($c_1, c_2$) to match experimental results.
 
+lipai@mail.ustc.edu.cn  
+
 ## Project Structure
 
 - `main.py`: The entry point for running a full simulation. Loads configuration, generates initial surfaces, evolves them thermally, and visualizes results.
@@ -48,3 +50,4 @@ To simulate a surface evolution with specific parameters:
 
 ## Requirements
 - `numpy`, `pandas`, `scipy`, `matplotlib`, `tomli`, `scikit-learn`
+
